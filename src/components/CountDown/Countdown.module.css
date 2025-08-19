@@ -1,0 +1,12 @@
+.countDown {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.4rem;
+}
+
+.countDown span {
+  font-size: 10rem;
+  font-weight: 700;
+  color: var(--gray-100);
+}

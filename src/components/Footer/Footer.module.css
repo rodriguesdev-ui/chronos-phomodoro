@@ -1,0 +1,22 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1.2rem;
+  border-top: 1px solid var(--border);
+  gap: 1.2rem;
+  margin-top: 2.4rem;
+}
+
+.footerLink {
+  color: var(--text-default);
+  text-decoration: none;
+  font-size: 1.4rem;
+  font-weight: 500;
+  transition: all 0.3s ease-in-out;
+}
+
+.footerLink:hover {
+  text-decoration: underline;
+}

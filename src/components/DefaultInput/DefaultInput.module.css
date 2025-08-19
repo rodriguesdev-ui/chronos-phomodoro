@@ -1,0 +1,26 @@
+.formTaskContent {
+  width: 100%;
+  padding: 1.2rem;
+  border: 0.1rem solid transparent;
+  border-bottom: 0.1rem solid var(--gray-200);
+  background-color: transparent;
+  text-align: center;
+  color: var(--text-default);
+  transition: all 0.3s ease-in-out;
+}
+
+.formTaskContent:focus {
+  outline: none;
+  border-bottom: 0.1rem solid var(--primary);
+}
+
+.formTaskContent:placeholder {
+  color: var(--gray-500);
+  font-size: 1.6rem;
+  font-style: italic;
+}
+
+.formTaskContent:disabled {
+  border-bottom: 0.1rem solid var(--disabled);
+  color: var(--text-muted);
+}
