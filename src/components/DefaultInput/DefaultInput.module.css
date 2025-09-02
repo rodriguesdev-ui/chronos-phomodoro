@@ -24,3 +24,9 @@
   border-bottom: 0.1rem solid var(--disabled);
   color: var(--text-muted);
 }
+
+.formTaskContentLabel {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: var(--gray-100);
+}

@@ -13,7 +13,9 @@ export function DefaultInput({
 }: DefaultInputProps) {
   return (
     <>
-      <label htmlFor={id}>{labelText}</label>
+      <label className={styles.formTaskContentLabel} htmlFor={id}>
+        {labelText}
+      </label>
       <input className={styles.formTaskContent} type={type} id={id} {...rest} />
     </>
   );
